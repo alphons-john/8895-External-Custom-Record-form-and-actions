@@ -128,7 +128,7 @@ define(['N/record', 'N/ui/serverWidget', 'N/search', 'N/url', 'N/email'],
             return { custId, custEmail, salesEmail };
         };
 
-        /**
+        /***
          * Creates an external customer record.
          * @param {Object} customerData - The customer input details.
          * @param {string} customerId - Customer ID if found.
